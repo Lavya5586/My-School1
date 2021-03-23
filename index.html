@@ -1,0 +1,145 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My School Website</title>
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Shardein School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campuslife">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <div class="announcement">
+        <marquee id="marqueStyle" onmouseover="this.stop();" onmouseout="this.start();"></marquee>
+    </div>
+    <iframe id="videos" src="https://www.youtube.com/watch?v=nNvetcnYle8"></iframe>
+    <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs" id="contactUs">
+            <h2 class="text-capitalize">contact us</h2>
+        </div>
+
+        <div class="container">
+            <div class="pageheader" id="campus_life">
+                <h2 class="text-capitalize">Campus Life</h2>
+
+                <div class="row">
+                    <div class="travel_mainDiv">
+                        <img class="img responsive" src="School%20Auditorium" />
+                        <h4 class="text-capitalize"><kbd>School Auditorium</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-captalize">It was built in 1984-1985</h5>
+                        <p class="text-muted text-left">It is a comfy place in my school.It is build in the new building of my school.It is mostly used for functions such as honour assembly,annual function practise etc.
+                    </div>
+
+                    <div class="travel_mainDiv">
+                        <img class="img responsive" src="school%20stage.jfif" />
+                        <h4 class="text-capitalize"><kbd>School Stage</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-captalize">It was built in 1984-1985</h5>
+                        <p class="text-muted text-left">It is the main stage of mu school.It is build in old building of my school.It is mostly used for functions such as honour assembly,annual function,teachers and childern's day celebration etc.
+                    </div>
+
+                    <div class="travel_mainDiv">
+                        <img class="img responsive" src="School%20ground" />
+                        <h4 class="text-capitalize"><kbd>School Ground</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-captalize">It was built in 1984-1985</h5>
+                        <p class="text-muted text-left">There are 2 playgrounds and 3 grounds in my school.My school ground is very big.this ground is used for sports day and for sports matches.
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <br><br>
+            <div class="page-header" id="achievements">
+                <h2 class="text-capitalize">School Achievements</h2>
+            </div>
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievements">
+                City Fotball Tournament 2016-2017<i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="school_ahievements1" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img src="Football%20tournament.jfif" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h5 class="text-success text-left text-capitalize">
+                    </h5>
+                    <p>My school has won the "City Football Tournament 2016-2017".</p>
+                </div>
+            </div>
+
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievements">
+                Swachh Bharat Abhiyan<i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="school_ahievements2" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img src="SBA.jfif" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h5 class="text-success text-left text-capitalize">
+                    </h5>
+                    <p>My school has contributed the most (in my city) in Swachh Bhart Abhiyaan .</p>
+                </div>
+            </div>
+
+            <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievements">
+                Science Park<i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="school_ahievements1" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img src="SP.jfif" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                    <h5 class="text-success text-left text-capitalize">
+                    </h5>
+                    <p>My school has the 1st "Science Park" in my city.</p>
+                </div>
+            </div>
+            <hr>
+            <br><br>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15078.335147287553!2d72.8909166!3d19.125906699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c97f346053b7%3A0xacf72f56793d190a!2sWhitehat%20Education%20Technology%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1615641202623!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id="details">
+                <img src="shardein-school-muzaffarnagar-logo.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3>Principle name</h3>
+                <h4>Mrs Dhara Ratan</h4>
+                <div class="contact_1">
+                    <a href="#">
+                        <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;01312970016</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-facebook"></i>&nbsp;&nbsp;Shardein School</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
